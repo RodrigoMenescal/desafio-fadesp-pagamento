@@ -31,7 +31,7 @@ public class Pagamento {
     private String cpfCnpj;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "tp_operacao", updatable = false)
+    @Column(name = "tp_operacao")
     private OperacaoEnum operacao;
 
     @Column(name = "nm_cartao")
